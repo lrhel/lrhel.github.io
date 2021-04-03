@@ -1,0 +1,8 @@
+- name: github
+  url: https://github.com/lrhel
+  src: /assets/images/github.png
+  alt: Hel's Github
+- name: twitter
+  url: https://twitter.com/LeRoiHel
+  src: /assets/images/twitter.png
+  alt: Hel's Twitter

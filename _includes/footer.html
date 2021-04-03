@@ -1,0 +1,23 @@
+	<footer class="footer">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col">
+					<p>
+						© 2021 - All rights reserved - Hel
+					</p>
+				</div>
+				<div class="col align-self-end">
+					<ul class="float-right">
+          {% for item in site.data.footer %}
+            <li>
+              <a href="{{ item.url }}">
+                <img src="{{ item.src }}" alt="{{ item.alt }}">
+              </a>
+            </li>
+          {% endfor %}
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+
